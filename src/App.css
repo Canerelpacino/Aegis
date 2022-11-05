@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*Home*/
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media (max-width: 960px) {
+  .home {
+    display: none;
+  }
+}
+
+.mint {
+  position: absolute;
+  display: block;
+  color: white;
+  top: 33vh;
+  right: 41vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.mint-phone {
+  position: absolute;
+  display: block;
+  color: white;
+  top: 100vw;
+  margin: auto;
+}
+
+
+#connectbtn {
+  position: absolute;
+  display: flex;
+  top: 43vh;
+  right: 40.5vw;
+  margin: auto;
+  font-family: 'help', cursive;
+  color: black;
+  cursor: pointer;
+  font-size: 3.2em;
+}
+
+#connect-phone {
+  position: absolute;
+  display: flex;
+  top: 110vw;
+  margin: auto;
+  font-family: 'help', cursive;
+  color: black;
+  cursor: pointer;
+  font-size: 3.5em;
+}
+
+
+#connectbtn:hover {
+  scale: 0.95;
+}
+
+.soldout {
+  position: absolute;
+  font-family: 'help', cursive;
+  font-size: 3em;
+  margin: auto;
+  left: 43vw;
+  top: 11vh;
+}
+
+.soldout-phone {
+  display: block;
+  position: relative;
+  font-family: 'help', cursive;
+  top: 20vw;
+  width: 100%;
+  font-size: 3em;
+  margin: auto;
+}
+
+.mintbtn {
+  font-family: 'help', cursive;
+  color: black;
+  font-size: 2em;
+  cursor: pointer;
+  margin-top: 2px;
+  margin-left: 8px;
+}
+
+.mintbtn:hover {
+  scale: 0.95;
+}
+
+.round-button{
+  font-size: 5em;
+}
+
+#mint-amount{
+  font-size: 5em;
+}
+
+#twitter:hover {
+  scale: 0.95;
+}
+
+#opensea:hover {
+  scale: 0.95;
+}
+
+@media (max-width: 1536px) {
+  .mint{
+    top: 35vh;
+  }
+  .mintbtn {
+    font-size: 1.6em;
+  }
+  #connectbtn {
+    top: 43vh;
+    font-size: 2.6em;
+  }
+  .soldout{
+    font-size: 2.8em;
+  }
+  .round-button{
+    font-size: 2.8em;
+  }
+  #mint-amount{
+    font-size: 2.8em;
+  }
+}
+
+@media (max-width: 1400px) {
+  .mint{
+    top: 35vh;
+  }
+  .mintbtn {
+    font-size: 1.4em;
+  }
+  #connectbtn {
+    top: 43vh;
+    font-size: 2.3em;
+  }
+  .soldout{
+    font-size: 2.5em;
+  }
+  .round-button{
+    font-size: 2.5em;
+  }
+  #mint-amount{
+    font-size: 2.5em;
+  }
+}

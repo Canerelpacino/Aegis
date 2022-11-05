@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xAd0007c58011921D478B7B569C9C82E03df86915",
+  "SCAN_LINK": "https://etherscan.io/address/0xad0007c58011921d478b7b569c9c82e03df86915",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "DAYC",
+  "SYMBOL": "DAYC",
+  "MAX_SUPPLY": 3666,
+  "WEI_COST": 5000000000000000,
+  "DISPLAY_COST": 0.005,
+  "GAS_LIMIT": 120000,
+  "MARKETPLACE": "",
+  "MARKETPLACE_LINK": "",
+  "SHOW_BACKGROUND": true
+}
